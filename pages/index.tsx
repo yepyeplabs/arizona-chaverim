@@ -10,6 +10,7 @@ const Home = () => {
     <Layout>
 
       <section className="relative bg-gray-900 pb-20">
+        <img src="https://images.shulcloud.com/68/_preview/e6f6e04174b3cfc53308e9ec296a59c79d133749.png" alt="Arizona Chaverim badge" />
         <div className="relative container pt-12 px-4 mb-20 mx-auto text-center">
           <span className="text-blue-500 font-semibold">Arizona Chaverim</span>
           <h2 className="mt-8 mb-8 lg:mb-12 text-white text-4xl lg:text-6xl font-semibold">
