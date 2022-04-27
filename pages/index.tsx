@@ -36,7 +36,7 @@ const Home = () => {
         </div>
         <div className="max-w-6xl px-4 mx-auto">
           <div className="flex flex-wrap -mx-4">
-            <div className="w-full md:w-1/3 px-4 mb-4 md:mb-0">
+            <div className="w-full md:w-1/4 px-4 mb-4 md:mb-0">
               <div className="p-8 border border-blue-800 rounded-lg">
                 <span className="flex items-center justify-center mb-12 w-16 h-16 rounded-full bg-teal-500">
                   <svg
@@ -103,7 +103,7 @@ const Home = () => {
                 </a>
               </div>
             </div>
-            <div className="w-full md:w-1/3 px-4 mb-4 md:mb-0">
+            <div className="w-full md:w-1/4 px-4 mb-4 md:mb-0">
               <div className="p-8 border border-blue-800 rounded-lg">
                 <span className="flex items-center justify-center mb-12 w-16 h-16 rounded-full bg-orange-500">
                   <svg
@@ -180,7 +180,7 @@ const Home = () => {
                 </a>
               </div>
             </div>
-            <div className="w-full md:w-1/3 px-4">
+            <div className="w-full md:w-1/4 px-4">
               <div className="p-8 border border-blue-800 rounded-lg">
                 <span className="flex items-center justify-center mb-12 w-16 h-16 rounded-full bg-red-400">
                   <svg
@@ -258,7 +258,7 @@ const Home = () => {
                   </svg>
                 </a>
               </div>
-              <div className="w-full md:w-1/3 px-4">
+              <div className="w-full md:w-1/4 px-4">
                 <div className="p-8 border border-blue-800 rounded-lg">
                   <h3 className="mb-6 text-2xl text-white font-semibold">
                     Empty Fuel
