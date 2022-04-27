@@ -270,41 +270,45 @@ const Home = () => {
                     />
                   </svg>
                 </a>
-                <h3 className="mb-6 text-2xl text-white font-semibold">
-                  Empty Fuel
-                </h3>
-                <p className="mb-8 text-gray-500">
-                  Store projects in easily accessible catalogs
-                </p>
-                <a
-                  className="ml-auto flex items-center justify-center w-14 h-14 rounded-full bg-blue-800 hover:bg-blue-700 text-white"
-                  href="#"
-                >
-                  <svg
-                    width={19}
-                    height={13}
-                    viewBox="0 0 19 13"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M9.7 6.74872L0.75 6.74872"
-                      stroke="#45C1FF"
-                      strokeWidth="1.5"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                    <path
-                      fillRule="evenodd"
-                      clipRule="evenodd"
-                      d="M9.7002 11.7497L17.6372 6.74869L9.7002 1.74769V11.7497Z"
-                      stroke="#45C1FF"
-                      strokeWidth="1.5"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </a>
+                <div className="w-full md:w-1/3 px-4">
+                  <div className="p-8 border border-blue-800 rounded-lg">
+                    <h3 className="mb-6 text-2xl text-white font-semibold">
+                      Empty Fuel
+                    </h3>
+                    <p className="mb-8 text-gray-500">
+                      Store projects in easily accessible catalogs
+                    </p>
+                    <a
+                      className="ml-auto flex items-center justify-center w-14 h-14 rounded-full bg-blue-800 hover:bg-blue-700 text-white"
+                      href="#"
+                    >
+                      <svg
+                        width={19}
+                        height={13}
+                        viewBox="0 0 19 13"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M9.7 6.74872L0.75 6.74872"
+                          stroke="#45C1FF"
+                          strokeWidth="1.5"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                        <path
+                          fillRule="evenodd"
+                          clipRule="evenodd"
+                          d="M9.7002 11.7497L17.6372 6.74869L9.7002 1.74769V11.7497Z"
+                          stroke="#45C1FF"
+                          strokeWidth="1.5"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
