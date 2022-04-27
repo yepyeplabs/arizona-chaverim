@@ -10,19 +10,6 @@ const Home = () => {
     <Layout>
 
       <section className="relative bg-gray-900 pb-20">
-
-        <img
-          className="hidden lg:block lg:absolute top-0 left-0 mt-32"
-          src="zeus-assets/icons/dots/yellow-dot-left-bars.svg"
-          alt=""
-          data-removed="true"
-        />
-        <img
-          className="hidden lg:block lg:absolute bottom-0 right-0 mt-20"
-          src="zeus-assets/icons/dots/red-dot-right-shield.svg"
-          alt=""
-          data-removed="true"
-        />
         <div className="relative container pt-12 px-4 mb-20 mx-auto text-center">
           <span className="text-blue-500 font-semibold">Arizona Chaverim</span>
           <h2 className="mt-8 mb-8 lg:mb-12 text-white text-4xl lg:text-6xl font-semibold">
@@ -323,41 +310,14 @@ const Home = () => {
                 className="inline-block mb-6 text-gray-900 text-lg font-semibold"
                 href="#"
               >
-                <img
-                  className="h-7"
-                  src="zeus-assets/logo/logo-zeus-red.svg"
-                  alt=""
-                  width="auto"
-                />
+                LOGO
               </a>
               <p className="hidden lg:block text-sm text-gray-500">
-                All rights reserved © Zeus Corporation 2021
+                A project of Ahavas Torah Scottsdale designed and built by Ira Sanchez.
               </p>
             </div>
             <div className="w-full lg:w-4/6 px-4">
               <div className="flex flex-wrap items-center justify-end">
-                <ul className="w-full lg:w-auto inline-flex flex-wrap mb-4 lg:mb-0 md:mr-6 lg:mr-12">
-                  <li className="mr-12 mb-2 md:mb-0">
-                    <a className="text-sm font-medium" href="#">
-                      About
-                    </a>
-                  </li>
-                  <li className="mr-12 mb-2 md:mb-0">
-                    <a className="text-sm font-medium" href="#">
-                      Company
-                    </a>
-                  </li>
-                  <li className="mr-12 mb-2 md:mb-0">
-                    <a className="text-sm font-medium" href="#">
-                      Services
-                    </a>
-                  </li>
-                  <li className="mb-2 md:mb-0">
-                    <a className="text-sm font-medium" href="#">
-                      Testimonials
-                    </a>
-                  </li>
-                </ul>
                 <a
                   className="inline-block mr-auto lg:mr-0 py-4 px-8 text-sm text-white font-medium leafing-normal bg-red-400 hover:bg-red-300 rounded"
                   href="#"
@@ -366,7 +326,7 @@ const Home = () => {
                 </a>
               </div>
               <p className="mt-6 lg:hidden text-sm text-gray-500">
-                All rights reserved © Zeus Corporation 2021
+              A project of Ahavas Torah Scottsdale designed and built by Ira Sanchez.
               </p>
             </div>
           </div>
