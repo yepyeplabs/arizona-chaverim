@@ -10,7 +10,7 @@ const Home = () => {
     <Layout>
 
       <section className="relative bg-gray-900 pb-20">
-        
+
         <img
           className="hidden lg:block lg:absolute top-0 left-0 mt-32"
           src="zeus-assets/icons/dots/yellow-dot-left-bars.svg"
@@ -32,12 +32,20 @@ const Home = () => {
             Build a well-presented brand that everyone will love. Take care to develop
             resources continually and integrity them with previous projects.
           </p>
-          <a
-            className="relative z-10 inline-block w-full md:w-auto mb-2 md:mb-0 px-8 py-4 mr-4 text-sm font-medium leading-normal bg-red-400 hover:bg-red-300 text-white rounded transition duration-200"
-            href="#"
-          >
-            Call for Assistance
-          </a>
+          <div>
+            <a
+              className="relative z-10 inline-block  md:w-auto mb-2 md:mb-0 px-8 py-4 mr-4 text-sm font-medium leading-normal bg-transparent hover:bg-red-300 text-white border border-solid border-red-400 rounded transition duration-200"
+              href="#"
+            >
+              Email Us
+            </a>
+            <a
+              className="relative z-10 inline-block  md:w-auto mb-2 md:mb-0 px-8 py-4 mr-4 text-sm font-medium leading-normal bg-red-400 hover:bg-red-300 text-white rounded transition duration-200"
+              href="#"
+            >
+              Call for Assistance
+            </a>
+          </div>
         </div>
         <div className="max-w-6xl px-4 mx-auto">
           <div className="flex flex-wrap -mx-4">
