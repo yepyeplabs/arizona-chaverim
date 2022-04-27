@@ -16,8 +16,11 @@ const Home = () => {
             Friends you can count on.
           </h2>
           <p className="max-w-3xl mx-auto mb-8 lg:mb-12 text-white text-xl opacity-50">
-            Build a well-presented brand that everyone will love. Take care to develop
-            resources continually and integrity them with previous projects.
+            Chaverim of Arizona is a volunteer services organization comprised of a dedicated team of altruistic volunteers. Dispatchers and service members are standing by 24 hours a day (6 days a week) to help take care of the needs of our community.
+
+            From jump starts and flat tires to auto lockouts and house lockouts, empty gas tanks and more - Chaverim is there for all your non-medical emergency needs.
+
+
           </p>
           <div>
             <a
@@ -326,7 +329,7 @@ const Home = () => {
                 </a>
               </div>
               <p className="mt-6 lg:hidden text-sm text-gray-500">
-              A project of Ahavas Torah Scottsdale designed and built by Ira Sanchez.
+                A project of Ahavas Torah Scottsdale designed and built by Ira Sanchez.
               </p>
             </div>
           </div>
