@@ -26,7 +26,7 @@ const Home = () => {
         <div className="relative container pt-12 px-4 mb-20 mx-auto text-center">
           <span className="text-blue-500 font-semibold">What's new at Shuffle</span>
           <h2 className="mt-8 mb-8 lg:mb-12 text-white text-4xl lg:text-6xl font-semibold">
-            Take care of your performance every day.
+            Friends you can count on.
           </h2>
           <p className="max-w-3xl mx-auto mb-8 lg:mb-12 text-white text-xl opacity-50">
             Build a well-presented brand that everyone will love. Take care to develop
@@ -36,7 +36,7 @@ const Home = () => {
             className="relative z-10 inline-block w-full md:w-auto mb-2 md:mb-0 px-8 py-4 mr-4 text-sm font-medium leading-normal bg-red-400 hover:bg-red-300 text-white rounded transition duration-200"
             href="#"
           >
-            Try for free
+            Call for Assistance
           </a>
         </div>
         <div className="max-w-6xl px-4 mx-auto">
@@ -72,7 +72,7 @@ const Home = () => {
                   </svg>
                 </span>
                 <h3 className="mb-6 text-2xl text-white font-semibold">
-                  Quick review
+                  Car and Home Lockout
                 </h3>
                 <p className="mb-8 text-gray-500">
                   We made sure you get feedback the same day.
@@ -149,7 +149,7 @@ const Home = () => {
                   </svg>
                 </span>
                 <h3 className="mb-6 text-2xl text-white font-semibold">
-                  Easy changes
+                  Flat Tire
                 </h3>
                 <p className="mb-8 text-gray-500">
                   Options settings for customers convenience.
@@ -228,7 +228,42 @@ const Home = () => {
                   </svg>
                 </span>
                 <h3 className="mb-6 text-2xl text-white font-semibold">
-                  Place storage
+                  Jump Start
+                </h3>
+                <p className="mb-8 text-gray-500">
+                  Store projects in easily accessible catalogs
+                </p>
+                <a
+                  className="ml-auto flex items-center justify-center w-14 h-14 rounded-full bg-blue-800 hover:bg-blue-700 text-white"
+                  href="#"
+                >
+                  <svg
+                    width={19}
+                    height={13}
+                    viewBox="0 0 19 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.7 6.74872L0.75 6.74872"
+                      stroke="#45C1FF"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M9.7002 11.7497L17.6372 6.74869L9.7002 1.74769V11.7497Z"
+                      stroke="#45C1FF"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                </a>
+                <h3 className="mb-6 text-2xl text-white font-semibold">
+                  Empty Fuel
                 </h3>
                 <p className="mb-8 text-gray-500">
                   Store projects in easily accessible catalogs
