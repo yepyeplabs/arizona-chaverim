@@ -70,6 +70,9 @@ const Home = () => {
                     </div>
                 </section>
                 <div className="px-4 mx-auto ">
+                    <h2 className="mb-6 text-3xl font-semibold text-center lg:text-5xl">
+                        Services
+                    </h2>
                     <div className="flex flex-wrap justify-around px-20">
                         <Service
                             color="border-4 border-solid border-yellow-500"
@@ -94,7 +97,7 @@ const Home = () => {
                         <Service
                             color="border-4 border-solid border-yellow-500"
                             icon={<EllipsisIcon />}
-                            title="And more!"
+                            title="And More!"
                         />
                     </div>
                 </div>

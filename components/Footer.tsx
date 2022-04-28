@@ -6,14 +6,14 @@ export default function Footer() {
             <div className="container px-4 mx-auto">
                 <div className="flex flex-wrap items-center justify-between -mx-4">
                     <div className="w-full px-4 lg:w-2/6">
-                        <a
-                            className="inline-block mb-6 text-lg font-semibold text-sky-700"
-                            href="#"
-                        >
-                            Arizona Chaverim
-                        </a>
                         <p className="hidden text-sm text-gray-500 lg:block">
-                            A project of{" "}
+                            <a
+                                className="inline-block mb-6 text-lg font-semibold text-sky-700"
+                                href="/"
+                            >
+                                Arizona Chaverim
+                            </a>
+                            <br />A project of{" "}
                             <a
                                 href="https://ahavastorah.org/"
                                 target="_blank"
@@ -35,12 +35,12 @@ export default function Footer() {
                         </p>
                     </div>
                     <div className="w-full px-4 lg:w-4/6">
-                        <div className="flex flex-wrap items-center justify-end">
+                        <div className="flex items-center">
                             <a
-                                className="flex items-center justify-between w-1/3 px-8 py-4 mr-auto text-sm font-medium text-white bg-red-700 rounded lg:mr-0 hover:bg-red-600"
+                                className="flex items-center justify-between w-1/2 px-8 py-4 mx-auto text-sm font-medium text-white bg-red-700 rounded md:w-1/3 lg:mr-0 hover:bg-red-600"
                                 href={`tel:${process.env.NEXT_PUBLIC_PHONE}`}
                             >
-                                <div className="w-1/4 mr-2 min-w">
+                                <div className="h-full mr-2 w-14">
                                     <PhoneIcon classes="fill-white" />
                                 </div>
                                 <span className="min-w-fit">
@@ -48,8 +48,14 @@ export default function Footer() {
                                 </span>
                             </a>
                         </div>
-                        <p className="mt-6 text-sm text-gray-500 lg:hidden">
-                            A project of{" "}
+                        <p className="mt-12 text-sm text-gray-500 lg:hidden">
+                            <a
+                                className="inline-block mb-6 text-lg font-semibold text-sky-700"
+                                href="/"
+                            >
+                                Arizona Chaverim
+                            </a>
+                            <br />A project of{" "}
                             <a
                                 href="https://ahavastorah.org/"
                                 target="_blank"
