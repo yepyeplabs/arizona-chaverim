@@ -37,7 +37,14 @@ export default function Footer() {
                     <div className="w-full px-4 lg:w-4/6">
                         <div className="flex items-center">
                             <a
-                                className="flex items-center justify-between w-1/2 px-8 py-4 mx-auto text-sm font-medium text-white bg-red-700 rounded md:w-1/3 lg:mr-0 hover:bg-red-600"
+                                className="flex items-center w-full px-8 py-4 mr-4 text-sm font-medium transition duration-200 bg-transparent border border-solid rounded border-sky-900 md:w-auto md:mb-0 hover:bg-sky-900 hover:text-white justfy-center md:ml-auto"
+                                href="https://www.ahavastorah.org/payment.php"
+                                target="_blank"
+                            >
+                                Donate
+                            </a>
+                            <a
+                                className="flex items-center justify-between w-full px-8 py-4 text-sm font-medium text-white bg-red-700 rounded md:w-1/3 lg:mr-0 hover:bg-red-600"
                                 href={`tel:${process.env.NEXT_PUBLIC_PHONE}`}
                             >
                                 <div className="h-full mr-2 w-14">
