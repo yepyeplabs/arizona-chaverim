@@ -4,7 +4,7 @@ sgMail.setApiKey(process.env.SENDGRID);
 
 export default function handler(req: any, res: any) {
     let { name, email, message } = req.body;
-    console.log({ name, email, message });
+
     const msg = {
         to: process.env.TO_EMAIL,
         from: process.env.FROM_EMAIL,
@@ -19,7 +19,6 @@ export default function handler(req: any, res: any) {
             res.send("Email sent");
         })
         .catch((error: any) => {
-            console.log(error.response.body);
-            res.status(400).send(error.response.body[0].message);
+            res.status(400).send(error.response.body[0]?.message);
         });
 }

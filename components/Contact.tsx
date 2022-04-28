@@ -1,4 +1,5 @@
 import { useForm } from "react-hook-form";
+import toast from "react-hot-toast";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 
@@ -32,9 +33,14 @@ export default function Contact() {
                 },
                 body: JSON.stringify(formData),
             });
-            console.log(response);
+            if (response.ok) {
+                toast.success("Your message has been sent!");
+            } else {
+                toast.error("There was a problem sending your message.");
+            }
         } catch (error) {
             console.log(error);
+            toast.error("There was a problem when sending your message.");
         }
     };
     return (
