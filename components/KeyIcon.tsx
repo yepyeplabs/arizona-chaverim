@@ -6,6 +6,7 @@ export default function KeyIcon() {
             {/*?xml version="1.0" encoding="iso-8859-1"?*/}
             {/* Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  */}
             <svg
+                className="fill-sky-900"
                 width={32}
                 version="1.1"
                 id="Capa_1"
@@ -22,7 +23,6 @@ export default function KeyIcon() {
                 xmlSpace="preserve"
             >
                 <path
-                    fill="white"
                     d="M265.818,26.328c-35.103-35.104-92.017-35.104-127.12,0c-23.7,23.7-31.374,57.337-23.073,87.496L7.057,222.391
           c-2.456,2.456-3.933,5.725-4.152,9.19l-2.876,45.386c-0.259,4.093,1.253,8.098,4.152,10.997c2.899,2.899,6.905,4.412,10.997,4.152
           l45.386-2.876c3.466-0.22,6.734-1.696,9.19-4.153l7.651-7.65c3.987-3.987,5.672-9.727,4.473-15.237l-3.859-17.735

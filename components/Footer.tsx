@@ -13,7 +13,15 @@ export default function Footer() {
                             Arizona Chaverim
                         </a>
                         <p className="hidden text-sm text-gray-500 lg:block">
-                            A project of Ahavas Torah Scottsdale.
+                            A project of{" "}
+                            <a
+                                href="https://ahavastorah.org/"
+                                target="_blank"
+                                className="border-b-2 border-yellow-500 border-solid hover:bg-yellow-500 hover:text-black"
+                            >
+                                Ahavas Torah Scottsdale
+                            </a>
+                            .
                             <br />
                             Designed and built by{" "}
                             <a
@@ -30,10 +38,10 @@ export default function Footer() {
                         <div className="flex flex-wrap items-center justify-end">
                             <a
                                 className="flex items-center justify-between w-1/3 px-8 py-4 mr-auto text-sm font-medium text-white bg-red-700 rounded lg:mr-0 hover:bg-red-600"
-                                href="#"
+                                href={`tel:${process.env.NEXT_PUBLIC_PHONE}`}
                             >
                                 <div className="w-1/4 mr-2 min-w">
-                                    <PhoneIcon />
+                                    <PhoneIcon classes="fill-white" />
                                 </div>
                                 <span className="min-w-fit">
                                     Call for Assistance
@@ -41,7 +49,15 @@ export default function Footer() {
                             </a>
                         </div>
                         <p className="mt-6 text-sm text-gray-500 lg:hidden">
-                            A project of Ahavas Torah Scottsdale.
+                            A project of{" "}
+                            <a
+                                href="https://ahavastorah.org/"
+                                target="_blank"
+                                className="border-b-2 border-yellow-500 border-solid hover:bg-yellow-500 hover:text-black"
+                            >
+                                Ahavas Torah Scottsdale
+                            </a>
+                            .
                             <br />
                             Designed and built by{" "}
                             <a

@@ -1,9 +1,10 @@
-export default function PhoneIcon() {
+export default function PhoneIcon({ classes }: { classes: string }) {
     return (
         <>
             {/*?xml version="1.0" encoding="iso-8859-1"?*/}
             {/* Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  */}
             <svg
+                className={classes}
                 version="1.1"
                 id="Capa_1"
                 xmlns="http://www.w3.org/2000/svg"
@@ -19,7 +20,6 @@ export default function PhoneIcon() {
                 xmlSpace="preserve"
             >
                 <path
-                    fill="white"
                     d="M267.749,191.076c-14.595-11.729-27.983-17.431-40.93-17.431c-18.729,0-32.214,11.914-44.423,24.119
 	c-1.404,1.405-3.104,2.06-5.349,2.06c-10.288,0.001-28.387-12.883-53.794-38.293c-29.89-29.892-41.191-48.904-33.592-56.506
 	c20.6-20.593,27.031-41.237-4.509-80.462C73.861,10.51,62.814,3.68,51.38,3.68c-15.42,0-27.142,12.326-37.484,23.202

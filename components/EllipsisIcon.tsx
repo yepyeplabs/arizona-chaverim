@@ -6,6 +6,7 @@ export default function EllipsisIcon() {
             {/*?xml version="1.0" encoding="iso-8859-1"?*/}
             {/* Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  */}
             <svg
+                className="fill-sky-900"
                 version="1.1"
                 width={32}
                 xmlns="http://www.w3.org/2000/svg"
@@ -22,32 +23,17 @@ export default function EllipsisIcon() {
             >
                 <g>
                     <g>
-                        <circle
-                            fill="white"
-                            cx="65.142"
-                            cy="236.288"
-                            r="65.142"
-                        />
+                        <circle cx="65.142" cy="236.288" r="65.142" />
                     </g>
                 </g>
                 <g>
                     <g>
-                        <circle
-                            cx="236.308"
-                            fill="white"
-                            cy="236.288"
-                            r="65.142"
-                        />
+                        <circle cx="236.308" cy="236.288" r="65.142" />
                     </g>
                 </g>
                 <g>
                     <g>
-                        <circle
-                            fill="white"
-                            cx="407.434"
-                            cy="236.288"
-                            r="65.142"
-                        />
+                        <circle cx="407.434" cy="236.288" r="65.142" />
                     </g>
                 </g>
                 <g></g>
