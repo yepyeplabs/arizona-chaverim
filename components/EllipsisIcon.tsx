@@ -7,7 +7,7 @@ export default function EllipsisIcon() {
             {/* Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  */}
             <svg
                 version="1.1"
-                width={36}
+                width={32}
                 xmlns="http://www.w3.org/2000/svg"
                 xmlnsXlink="http://www.w3.org/1999/xlink"
                 x="0px"

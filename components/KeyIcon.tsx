@@ -6,7 +6,7 @@ export default function KeyIcon() {
             {/*?xml version="1.0" encoding="iso-8859-1"?*/}
             {/* Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  */}
             <svg
-                width={36}
+                width={32}
                 version="1.1"
                 id="Capa_1"
                 xmlns="http://www.w3.org/2000/svg"
