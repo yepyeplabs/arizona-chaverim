@@ -70,7 +70,7 @@ const Home = () => {
                     </div>
                 </section>
                 <div className="px-4 mx-auto ">
-                    <h2 className="mb-6 text-3xl font-semibold text-center lg:text-5xl">
+                    <h2 className="mb-6 text-3xl font-semibold text-center lg:text-5xl text-sky-900">
                         Services
                     </h2>
                     <div className="flex flex-wrap justify-around px-20">

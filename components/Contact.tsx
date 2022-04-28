@@ -46,7 +46,7 @@ export default function Contact() {
     return (
         <section className="py-20">
             <div className="container px-4 mx-auto">
-                <h2 className="mb-6 text-3xl font-semibold text-center lg:text-5xl">
+                <h2 className="mb-6 text-3xl font-semibold text-center lg:text-5xl text-sky-900">
                     Contact
                 </h2>
                 <div className="flex flex-wrap ">
