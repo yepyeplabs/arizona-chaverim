@@ -1,5 +1,5 @@
 import getConfig from "next/config";
-
+import Head from "next/head";
 import Layout from "@/components/Layout";
 import Contact from "@/components/Contact";
 import Footer from "../components/Footer";
@@ -17,6 +17,9 @@ const { name } = publicRuntimeConfig.site;
 const Home = () => {
     return (
         <Layout>
+            <Head>
+                <title>ASA Plumbing</title>
+            </Head>
             <>
                 <Toaster position="top-right" />
 

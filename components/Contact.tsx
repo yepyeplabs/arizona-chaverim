@@ -39,7 +39,6 @@ export default function Contact() {
                 toast.error("There was a problem sending your message.");
             }
         } catch (error) {
-            console.log(error);
             toast.error("There was a problem when sending your message.");
         }
     };
